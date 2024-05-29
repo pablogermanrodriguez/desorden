@@ -1,12 +1,22 @@
 @media(max-widt:320px){
-    header nav ul li{
-        margin: 0.2rem;
+    header  {
+        display: none;
     }
-
-    header nav ul li a {
-
-        text-decoration: none;
-        color: white;
-        font-size: 0.6rem;
+    section{ 
+        .grid-conteiner{
+            display: grid;
+            width: 100%;
+            margin: 0 auto;
+    
+            grid-template-columns: 1fr;
+            grid-template-rows: auto auto auto auto auto auto;
+            grid-gap: 10px;
+    
+            .c1{
+                grid-column: 1/3;
+            }
+        }
+        
+         
     }
 }
