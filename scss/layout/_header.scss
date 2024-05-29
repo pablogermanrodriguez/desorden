@@ -1,0 +1,32 @@
+header{
+    
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 85px;
+    padding: 10px 50px;
+    border-bottom: 1px solid green;
+    .logo{
+        height: 70px;
+        width: auto;
+    }
+    nav{
+        
+        ul{
+            li{
+                display: inline-block;
+                margin: 10px; 
+                a{
+                    text-decoration: none;
+                    color: rgb(33, 226, 15);
+                    margin: 5px;
+                    transition: 2s;
+                    padding: 7px 13px;
+                    
+                }
+            }
+        }
+    }
+    
+}

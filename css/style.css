@@ -1,0 +1,135 @@
+header {
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 85px;
+  padding: 10px 50px;
+  border-bottom: 1px solid green;
+}
+header .logo {
+  height: 70px;
+  width: auto;
+}
+header nav ul li {
+  display: inline-block;
+  margin: 10px;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: rgb(33, 226, 15);
+  margin: 5px;
+  transition: 2s;
+  padding: 7px 13px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  max-width: 100vw;
+}
+
+.grid-conteiner {
+  max-width: 100%;
+  display: grid;
+  margin: 60px;
+  grid-template-columns: repeat(auto-fill, minmax(1fr));
+  gap: 30px;
+}
+.grid-conteiner .c1 {
+  border-radius: 5px;
+  text-align: center;
+  grid-column: 1/2;
+  padding: 20px;
+  margin-top: 60px;
+}
+.grid-conteiner .c1 h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: green;
+}
+.grid-conteiner .c1 p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: greenyellow;
+}
+.grid-conteiner .c2 {
+  grid-column: 2/4;
+}
+.grid-conteiner .c2 img {
+  height: 100%;
+  width: 60%;
+}
+.grid-conteiner .c4 {
+  grid-column: 1/3;
+  grid-row: 2/4;
+}
+.grid-conteiner .c4 video {
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+}
+.grid-conteiner .c5 {
+  grid-column: 3/4;
+  grid-row: 2/4;
+}
+.grid-conteiner .c5 h2 {
+  margin: 30px;
+  color: green;
+}
+.grid-conteiner .c5 p {
+  color: greenyellow;
+  padding: 35px;
+  height: auto;
+  width: auto;
+}
+.grid-conteiner .c7 {
+  grid-column: 1/4;
+  grid-row: 4/6;
+}
+.grid-conteiner .c7 p {
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: rgb(73, 119, 3);
+}
+.grid-conteiner .c7 ul li {
+  color: greenyellow;
+  font-size: 90%;
+  text-align: start;
+}
+.grid-conteiner .c12 {
+  border-top: 3px solid green;
+  grid-column: 1/4;
+  grid-row: 6/12;
+}
+
+@media creen and (max-width: 681px) {
+  header {
+    padding: 15px;
+  }
+  header nav ul li {
+    margin: 0.3rem;
+  }
+  header nav ul li a {
+    text-decoration: none;
+    font-size: 0.7rem;
+  }
+}
+@media (max-widt: 320px) {
+  header nav ul li {
+    margin: 0.2rem;
+  }
+  header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.6rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
